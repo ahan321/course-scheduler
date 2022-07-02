@@ -17,7 +17,7 @@ public class DBConnection {
     private static Connection connection;
     private static final String user = "java";
     private static final String password = "java";
-    private static final String database = "jdbc:derby://localhost:1527/CourseSchedulerDBAhanMalliAJM8071";
+    private static final String database = "jdbc:derby://localhost:1527/CourseScheduler";
 
     public static Connection getConnection()
     {
